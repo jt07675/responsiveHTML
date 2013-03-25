@@ -12,3 +12,67 @@ body {
     background-size: 1024px 768px;  
   }
 }
+
+@media (min-width: 1024px) {
+  .main {
+    width: 1024px; 
+    margin: 25px auto;
+    border: solid 0px red;
+    background-color: #ffffff;
+    text-align: center; 
+  }
+  /* 4-column */
+
+  .main img {
+    border:solid 1px black;
+    margin:25px;
+  }  
+} 
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .main {
+    width: 750px; 
+    margin: 25px auto;
+    border: solid 0px red;
+    background-color: #ffffff;
+    text-align: center;
+  } 
+  /* 2-column */
+
+  .main img {
+    border:solid 1px black;
+    margin:25px 30px;
+  }  
+} 
+
+@media (min-width: 480px) and (max-width: 767px) {
+  .main {
+    width: 470px; 
+    margin: 25px auto;
+    border: solid 0px red;
+    background-color: #ffffff;
+    text-align: center;
+  } 
+  /* 2-column */
+
+  .main img {
+    border:solid 1px black;
+    margin:25px 10px;
+  }  
+} 
+
+@media (min-width:320px) and (max-width: 479px) {
+  .main {
+    width: 300px; 
+    margin: 25px auto;
+    border: solid 0px red;
+    background-color: #ffffff;
+    text-align: center;
+  } 
+  /* 1-column */
+
+  .main img {
+    border:solid 1px black;
+    margin:25px;
+  } 
+}  
