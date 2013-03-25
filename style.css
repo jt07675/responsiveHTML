@@ -1,10 +1,56 @@
+/*
+  [MY SIDE PROJECT] VERSION 1.0
+  
+  Created March 24th 2013
+*/
+
+/* 1.BODY and PAGE
+---------------------------------------------------------------------- */
 body {
   background: url('images/bg.jpg') center center fixed no-repeat;
   -moz-background-size: cover;
   -webkit-background-size: cover;
   background-size: cover;
+  font-family: Helvetica, Arial, serif;
+  font-size:13px; 
+  line-height:22px; 
+  color:#000;
 }
 
+/* 2.DEFAULT STYLING
+---------------------------------------------------------------------- */
+.main img {
+  border:solid 1px black;
+  margin:25px;
+}  
+
+/* 3.HEADINGS
+---------------------------------------------------------------------- */
+
+/* 4.LINKS
+---------------------------------------------------------------------- */
+
+/* 5.LAYOUT
+---------------------------------------------------------------------- */
+.main {
+  width: 1024px; 
+  margin: 25px auto;
+  border: solid 0px red;
+  background-color: #ffffff;
+  text-align: center; 
+}
+
+/* 6.NAVIGATION
+---------------------------------------------------------------------- */
+
+/* 7.SITEINFO/FOOTER
+---------------------------------------------------------------------- */
+
+/* 8.FORMS
+---------------------------------------------------------------------- */
+
+/* 9.MEDIA QUERIES
+---------------------------------------------------------------------- */
 @media only all and (max-width: 1024px) and (max-height: 768px) {
   body {  
     -moz-background-size: 1024px 768px;
@@ -13,66 +59,33 @@ body {
   }
 }
 
-@media (min-width: 1024px) {
-  .main {
-    width: 1024px; 
-    margin: 25px auto;
-    border: solid 0px red;
-    background-color: #ffffff;
-    text-align: center; 
-  }
-  /* 4-column */
-
-  .main img {
-    border:solid 1px black;
-    margin:25px;
-  }  
-} 
-
 @media (min-width: 768px) and (max-width: 1023px) {
   .main {
     width: 750px; 
-    margin: 25px auto;
-    border: solid 0px red;
-    background-color: #ffffff;
-    text-align: center;
   } 
   /* 2-column */
 
   .main img {
-    border:solid 1px black;
-    margin:25px 30px;
+    margin-left:30px;
+    margin-right: 30px;
   }  
 } 
 
 @media (min-width: 480px) and (max-width: 767px) {
   .main {
     width: 470px; 
-    margin: 25px auto;
-    border: solid 0px red;
-    background-color: #ffffff;
-    text-align: center;
   } 
   /* 2-column */
 
   .main img {
-    border:solid 1px black;
-    margin:25px 10px;
+    margin-left:10px;
+    margin-right: 10px;
   }  
 } 
 
 @media (min-width:320px) and (max-width: 479px) {
   .main {
     width: 300px; 
-    margin: 25px auto;
-    border: solid 0px red;
-    background-color: #ffffff;
-    text-align: center;
   } 
   /* 1-column */
-
-  .main img {
-    border:solid 1px black;
-    margin:25px;
-  } 
 }  
